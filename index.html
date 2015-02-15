@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Abetka Jirečeka</title>
+    <script src="jirecek.js" type="text/javascript"></script>
+  </head>
+  <body style="text-align: center;">
+    <h1>Abetka Jirečeka</h1>
+    <textarea rows="15" cols="80" id="text-in">
+26 серпня 1740 в невеликому французькому містечку Анноне народився Жозеф-Мішель Монгольф'є, якому разом з молодшим братом Жак-Етьєном належало прокласти людству дорогу в небо. Брати народились в містечку Відалон-лез-Анноне (департамент Ардеш, Франція), в багатодітній сім'ї (16 дітей). Батько П'єр Монгольф'є (Тенсе, 21 лютого 1700 – Відалон, 1 червня 1793), мати Анна Дюрет (14 лютого 1701 – Відалон, 11 березня 1760). Батько мав паперову мануфактуру.
+    </textarea>
+    <br/>
+    <br/>
+    <input type="button" value="Latynkoju" onclick="javascript: document.getElementById('text-out').value = transliterate(document.getElementById('text-in').value)" style="font-weight: bold; padding: 10pt 20pt 10pt 20pt;">
+    <br/>
+    <br/>
+    <textarea rows="15" cols="80" id="text-out"></textarea>
+
+  </body>
+</html>
